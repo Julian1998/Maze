@@ -1,22 +1,13 @@
-﻿using System;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 
 public class Options : MonoBehaviour
 {
-    public Boolean shadow;
-    public DirectionalLight MAZELIGHT;
+    public Light light;
     
-    public void ShadowSwitch()
+    public void shadowSwitch(bool newValue)
     {
-        if (shadow)
-        {
-           // MAZELIGHT = GetComponent(LightShadows.Soft);
-        }
-        
-        else
-        {
-           // MAZELIGHT = GetComponent(LightShadows.None);
-        }
+        light.shadows = newValue ? LightShadows.Soft : LightShadows.None;
     }
 }
