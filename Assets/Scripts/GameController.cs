@@ -5,24 +5,23 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public int rotationOffset;
+
+    private Gyroscope gyros;
     // Start is called before the first frame update
     void Start()
     {
-
+        gyros = Input.gyro;
+        if(!gyros.enabled)
+        {
+            gyros.enabled = true;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         #if UNITY_ANDROID
-        Vector3 dir = Vector3.zero;
-
-        dir.x = Input.acceleration.x;
-        dir.y = Input.acceleration.y;
-        
-        Debug.Log(dir);
-        
-        transform.Rotate(dir * Time.deltaTime);
+        transform.rotation = gyros.attitude;
 
 #else
         if (Input.GetKeyDown(KeyCode.W))

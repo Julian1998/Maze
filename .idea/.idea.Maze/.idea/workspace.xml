@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4012e1e1-c4f1-4c88-98b7-9cb6c31c280e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DontDestroy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DontDestroy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/wood.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Options.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Options.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScoreCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScoreCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Trigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Trigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/Materials/Maze.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/models/Materials/Maze.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +16,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="336">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
-                <marker date="1548267177796" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548267177796" expanded="true" signature="123:1001" ph="{...}" />
-                <marker date="1548267177796" expanded="true" signature="226:239" ph="{...}" />
-                <marker date="1548267177796" expanded="true" signature="297:999" ph="{...}" />
+                <marker date="1548270948076" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548270948076" expanded="true" signature="123:981" ph="{...}" />
+                <marker date="1548270948076" expanded="true" signature="256:377" ph="{...}" />
+                <marker date="1548270948076" expanded="true" signature="317:371" ph="{...}" />
+                <marker date="1548270948076" expanded="true" signature="435:979" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -126,18 +101,20 @@
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
       <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -163,7 +140,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7396000" />
+    <option name="totallyTimeSpent" value="7455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,72 +205,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/MainMenu.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/MainMenu.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32CAA292-E09A-4CB7-A44B-28A20E059F56/30/0980348f/LightShadows.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/DontDestroy.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Options.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <marker date="1546104619414" expanded="false" signature="6:78" ph="..." />
-            <marker date="1546104619414" expanded="true" signature="191:277" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1546083154636" expanded="false" signature="6:78" ph="..." />
-            <marker date="1546083154636" expanded="true" signature="123:829" ph="{...}" />
-            <marker date="1546083154636" expanded="true" signature="226:239" ph="{...}" />
-            <marker date="1546083154636" expanded="true" signature="297:827" ph="{...}" />
-            <marker date="1546083154636" expanded="true" signature="393:463" ph="{...}" />
-            <marker date="1546083154636" expanded="true" signature="504:575" ph="{...}" />
-            <marker date="1546083154636" expanded="true" signature="616:687" ph="{...}" />
-            <marker date="1546083154636" expanded="true" signature="728:798" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Trigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/ScoreCounter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FPSDebug.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Options.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/GameController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Trigger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ScoreCounter.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/FPSDebug.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="336">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
-            <marker date="1548267177796" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548267177796" expanded="true" signature="123:1001" ph="{...}" />
-            <marker date="1548267177796" expanded="true" signature="226:239" ph="{...}" />
-            <marker date="1548267177796" expanded="true" signature="297:999" ph="{...}" />
+            <marker date="1548270948076" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548270948076" expanded="true" signature="123:981" ph="{...}" />
+            <marker date="1548270948076" expanded="true" signature="256:377" ph="{...}" />
+            <marker date="1548270948076" expanded="true" signature="317:371" ph="{...}" />
+            <marker date="1548270948076" expanded="true" signature="435:979" ph="{...}" />
           </folding>
         </state>
       </provider>
