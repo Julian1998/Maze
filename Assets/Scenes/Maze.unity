@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44070172, g: 0.4893635, b: 0.5694895, a: 1}
+  m_IndirectSpecularColor: {r: 0.44070178, g: 0.48936355, b: 0.56948996, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -160,6 +160,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationOffset: 1
+--- !u!54 &77204345
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77204342}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &333556145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1504771404617468, guid: a2bb5245ca3aee641bd04be220c43801,
@@ -298,16 +314,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 114194826936152854, guid: a2bb5245ca3aee641bd04be220c43801,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114194826936152854, guid: a2bb5245ca3aee641bd04be220c43801,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 224554005049806032, guid: a2bb5245ca3aee641bd04be220c43801,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -412,6 +418,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114194826936152854, guid: a2bb5245ca3aee641bd04be220c43801,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114194826936152854, guid: a2bb5245ca3aee641bd04be220c43801,
+        type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114752595869508476, guid: a2bb5245ca3aee641bd04be220c43801, type: 3}
