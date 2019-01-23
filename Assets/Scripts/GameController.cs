@@ -15,8 +15,16 @@ public class GameController : MonoBehaviour
     void Update()
     {
         #if UNITY_ANDROID
+        Vector3 dir = Vector3.zero;
+
+        dir.x = Input.acceleration.x;
+        dir.y = Input.acceleration.y;
         
-        #else
+        Debug.Log(dir);
+        
+        transform.Rotate(dir * Time.deltaTime);
+
+#else
         if (Input.GetKeyDown(KeyCode.W))
         {
             transform.Rotate(rotationOffset,0,0);
@@ -33,7 +41,7 @@ public class GameController : MonoBehaviour
         {
             transform.Rotate(0,rotationOffset,0);
         }
-        #endif
-       
+#endif
+
     }
 }
