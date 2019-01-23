@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4012e1e1-c4f1-4c88-98b7-9cb6c31c280e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Options.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Options.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Maze.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Maze.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,50 +16,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-280360047">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GameController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="33" />
-              <folding>
-                <marker date="1546104099211" expanded="true" signature="6:78" ph="..." />
-                <marker date="1546104099211" expanded="true" signature="123:829" ph="{...}" />
-                <marker date="1546104099211" expanded="true" signature="226:239" ph="{...}" />
-                <marker date="1546104099211" expanded="true" signature="297:827" ph="{...}" />
-                <marker date="1546104099211" expanded="true" signature="393:463" ph="{...}" />
-                <marker date="1546104099211" expanded="true" signature="504:575" ph="{...}" />
-                <marker date="1546104099211" expanded="true" signature="616:687" ph="{...}" />
-                <marker date="1546104099211" expanded="true" signature="728:798" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Options.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-              <folding>
-                <marker date="1546104471481" expanded="true" signature="6:78" ph="..." />
-                <marker date="1546104471481" expanded="true" signature="116:279" ph="{...}" />
-                <marker date="1546104471481" expanded="true" signature="191:277" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/DontDestroy.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Trigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="90">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="35" />
               <folding>
-                <marker date="1546104471463" expanded="true" signature="6:78" ph="..." />
-                <marker date="1546104471463" expanded="true" signature="120:200" ph="{...}" />
-                <marker date="1546104471463" expanded="true" signature="147:198" ph="{...}" />
+                <marker date="1548254760608" expanded="true" signature="6:78" ph="..." />
+                <marker date="1548254760608" expanded="true" signature="116:305" ph="{...}" />
+                <marker date="1548254760608" expanded="true" signature="156:303" ph="{...}" />
+                <marker date="1548254760608" expanded="true" signature="189:297" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ScoreCounter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <marker date="1548254760487" expanded="true" signature="6:100" ph="..." />
+                <marker date="1548254760487" expanded="true" signature="144:427" ph="{...}" />
+                <marker date="1548254760487" expanded="true" signature="235:293" ph="{...}" />
+                <marker date="1548254760487" expanded="true" signature="361:421" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,7 +88,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Options.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DontDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScoreCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -81,6 +99,8 @@
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Options.cs" />
         <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScoreCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Trigger.cs" />
       </list>
     </option>
   </component>
@@ -89,9 +109,15 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="947" />
-    <option name="width" value="980" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1836" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -128,13 +154,11 @@
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
-      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
-      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <method v="2" />
@@ -159,11 +183,14 @@
       <workItem from="1546086585790" duration="707000" />
       <workItem from="1546087427522" duration="618000" />
       <workItem from="1546104174964" duration="295000" />
+      <workItem from="1548253500519" duration="57000" />
+      <workItem from="1548253709156" duration="13000" />
+      <workItem from="1548254527854" duration="265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5351000" />
+    <option name="totallyTimeSpent" value="5686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -176,9 +203,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.098614074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -217,6 +243,9 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -236,43 +265,56 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32CAA292-E09A-4CB7-A44B-28A20E059F56/30/0980348f/LightShadows.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/DontDestroy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Options.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1546104619414" expanded="false" signature="6:78" ph="..." />
+            <marker date="1546104619414" expanded="true" signature="191:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="1" selection-end-column="33" />
           <folding>
-            <marker date="1546104099211" expanded="true" signature="6:78" ph="..." />
-            <marker date="1546104099211" expanded="true" signature="123:829" ph="{...}" />
-            <marker date="1546104099211" expanded="true" signature="226:239" ph="{...}" />
-            <marker date="1546104099211" expanded="true" signature="297:827" ph="{...}" />
-            <marker date="1546104099211" expanded="true" signature="393:463" ph="{...}" />
-            <marker date="1546104099211" expanded="true" signature="504:575" ph="{...}" />
-            <marker date="1546104099211" expanded="true" signature="616:687" ph="{...}" />
-            <marker date="1546104099211" expanded="true" signature="728:798" ph="{...}" />
+            <marker date="1546083154636" expanded="false" signature="6:78" ph="..." />
+            <marker date="1546083154636" expanded="true" signature="123:829" ph="{...}" />
+            <marker date="1546083154636" expanded="true" signature="226:239" ph="{...}" />
+            <marker date="1546083154636" expanded="true" signature="297:827" ph="{...}" />
+            <marker date="1546083154636" expanded="true" signature="393:463" ph="{...}" />
+            <marker date="1546083154636" expanded="true" signature="504:575" ph="{...}" />
+            <marker date="1546083154636" expanded="true" signature="616:687" ph="{...}" />
+            <marker date="1546083154636" expanded="true" signature="728:798" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Options.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/ScoreCounter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
-            <marker date="1546104471481" expanded="true" signature="6:78" ph="..." />
-            <marker date="1546104471481" expanded="true" signature="116:279" ph="{...}" />
-            <marker date="1546104471481" expanded="true" signature="191:277" ph="{...}" />
+            <marker date="1548254760487" expanded="true" signature="6:100" ph="..." />
+            <marker date="1548254760487" expanded="true" signature="144:427" ph="{...}" />
+            <marker date="1548254760487" expanded="true" signature="235:293" ph="{...}" />
+            <marker date="1548254760487" expanded="true" signature="361:421" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DontDestroy.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="35" />
           <folding>
-            <marker date="1546104471463" expanded="true" signature="6:78" ph="..." />
-            <marker date="1546104471463" expanded="true" signature="120:200" ph="{...}" />
-            <marker date="1546104471463" expanded="true" signature="147:198" ph="{...}" />
+            <marker date="1548254760608" expanded="true" signature="6:78" ph="..." />
+            <marker date="1548254760608" expanded="true" signature="116:305" ph="{...}" />
+            <marker date="1548254760608" expanded="true" signature="156:303" ph="{...}" />
+            <marker date="1548254760608" expanded="true" signature="189:297" ph="{...}" />
           </folding>
         </state>
       </provider>
