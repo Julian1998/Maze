@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4012e1e1-c4f1-4c88-98b7-9cb6c31c280e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +18,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="142">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
-                <marker date="1548270948076" expanded="false" signature="6:78" ph="..." />
-                <marker date="1548270948076" expanded="true" signature="123:981" ph="{...}" />
-                <marker date="1548270948076" expanded="true" signature="256:377" ph="{...}" />
-                <marker date="1548270948076" expanded="true" signature="317:371" ph="{...}" />
-                <marker date="1548270948076" expanded="true" signature="435:979" ph="{...}" />
+                <marker date="1548871083013" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548871083013" expanded="true" signature="123:1754" ph="{...}" />
+                <marker date="1548871083013" expanded="true" signature="256:377" ph="{...}" />
+                <marker date="1548871083013" expanded="true" signature="317:371" ph="{...}" />
+                <marker date="1548871083013" expanded="true" signature="435:1563" ph="{...}" />
+                <marker date="1548871083013" expanded="true" signature="1624:1752" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,17 +65,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="1837" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1838" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
@@ -80,6 +82,7 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,11 +139,12 @@
       <workItem from="1548253709156" duration="13000" />
       <workItem from="1548254527854" duration="265000" />
       <workItem from="1548266059799" duration="1710000" />
+      <workItem from="1548865887116" duration="5134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7455000" />
+    <option name="totallyTimeSpent" value="12589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -215,14 +219,15 @@
     <entry file="file://$PROJECT_DIR$/Assets/FPSDebug.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="142">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
-            <marker date="1548270948076" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548270948076" expanded="true" signature="123:981" ph="{...}" />
-            <marker date="1548270948076" expanded="true" signature="256:377" ph="{...}" />
-            <marker date="1548270948076" expanded="true" signature="317:371" ph="{...}" />
-            <marker date="1548270948076" expanded="true" signature="435:979" ph="{...}" />
+            <marker date="1548871083013" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548871083013" expanded="true" signature="123:1754" ph="{...}" />
+            <marker date="1548871083013" expanded="true" signature="256:377" ph="{...}" />
+            <marker date="1548871083013" expanded="true" signature="317:371" ph="{...}" />
+            <marker date="1548871083013" expanded="true" signature="435:1563" ph="{...}" />
+            <marker date="1548871083013" expanded="true" signature="1624:1752" ph="{...}" />
           </folding>
         </state>
       </provider>
