@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4407018, g: 0.4893635, b: 0.56948954, a: 1}
+  m_IndirectSpecularColor: {r: 0.44070172, g: 0.4893635, b: 0.5694895, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -489,19 +489,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000037252916
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000037252916
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_RootOrder
@@ -513,11 +513,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -190
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1039941301, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 190
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84a27f66f309de840aaab65ec20120bd, type: 3}
@@ -687,6 +687,7 @@ GameObject:
   - component: {fileID: 1751350516}
   - component: {fileID: 1751350515}
   - component: {fileID: 1751350519}
+  - component: {fileID: 1751350520}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Player
@@ -782,3 +783,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1751350520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751350514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 255cb2fddf3ca244dba7d261cc297878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationOffset: 0
