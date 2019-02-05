@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Trigger : MonoBehaviour
@@ -12,8 +13,8 @@ public class Trigger : MonoBehaviour
         if (G.tag == "Player") {
             Debug.Log (pointValue);
             PlayerPrefs.SetInt("Score", pointValue);
-            Application.LoadLevelAdditive(1);
             Handheld.Vibrate();
+            SceneManager.LoadScene("Score");
         }
     }
 }

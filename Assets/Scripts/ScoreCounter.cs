@@ -2,23 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreCounter : MonoBehaviour {
 	
         public Text scoreText;
         public int points;
-        private int highscore;
-
-
-        void Start(){
-            scoreText = GetComponent<Text> ();
-        }
+        public int highscore;
 
         // Update is called once per frame
-        void Update () {
-            points = PlayerPrefs.GetInt("Score");
-            highscore = PlayerPrefs.GetInt("Highscore");
-            if(points > highscore)
+        void Start () {
+            scoreText = scoreText.GetComponent<Text> ();
+            
+            points = PlayerPrefs.GetInt("Score", 0);
+            highscore = PlayerPrefs.GetInt("Highscore", 0);
+            if(points >= highscore)
             {
                 PlayerPrefs.SetInt("Highscore", points);
                 scoreText.text = "New Highscore: " + points;
@@ -28,6 +26,11 @@ public class ScoreCounter : MonoBehaviour {
                 scoreText.text = "Score: " + points;
             }
             
+        }
+
+        public void LoadMenu()
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 
